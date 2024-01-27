@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  gap: 10%;
+}
+
+ul li {
+  flex-grow: 1;
+  text-align: center;
+  border: 1px solid black;
+}
